@@ -1,4 +1,4 @@
-package org.geek.chen.game.upgradation.server;
+package org.geek.chen.game.upgradation.user;
 
 import com.iohao.game.action.skeleton.core.BarSkeleton;
 import com.iohao.game.action.skeleton.core.BarSkeletonBuilderParamConfig;
@@ -18,16 +18,15 @@ import java.util.List;
  * @email 1163518793@qq.com
  * @date 2023/12/29 16:17
  */
-public class GameUserApplication extends AbstractBrokerClientStartup {
-	public static void main(String[] args) {
+public class GameUserLogicServer extends AbstractBrokerClientStartup {
+
+	public static void run() {
 		// 权限拦截设置
 		initAuth();
-
 		// 启动游戏服务器
 		int port = 10100;
 
-		NettySimpleHelper.run(port, List.of(new GameUserApplication()));
-
+		NettySimpleHelper.run(port, List.of(new GameUserLogicServer()));
 
 	}
 
@@ -36,7 +35,7 @@ public class GameUserApplication extends AbstractBrokerClientStartup {
 		// 表示登录才能访问业务方法
 		accessAuthenticationHook.setVerifyIdentity(true);
 		// 添加不需要登录（身份验证）也能访问的业务方法 (action)
-//		accessAuthenticationHook.addIgnoreAuthenticationCmd(UserCmdModule.MAIN_CMD, UserCmdModule.HELLO);
+		accessAuthenticationHook.addIgnoreAuthenticationCmd(UserCmdModule.MAIN_CMD, UserCmdModule.LOGIN);
 	}
 
 	@Override
@@ -62,4 +61,5 @@ public class GameUserApplication extends AbstractBrokerClientStartup {
 		builder.appName("game user 逻辑服");
 		return builder;
 	}
+
 }

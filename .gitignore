@@ -41,3 +41,4 @@ build/
 /game-common/.gitignore
 /game-server/.gitignore
 /game-user/.gitignore
+/game-h5/

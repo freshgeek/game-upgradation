@@ -5,6 +5,8 @@ import com.iohao.game.external.client.InputCommandRegion;
 import com.iohao.game.external.client.join.ClientRunOne;
 import org.geek.chen.game.upgradation.user.cmd.UserCmdModule;
 import org.geek.chen.game.upgradation.user.controller.req.LoginReq;
+import org.geek.chen.game.upgradation.user.controller.rsp.LoginRsp;
+import org.geek.chen.game.upgradation.user.controller.rsp.UserInfo;
 
 import java.util.List;
 
@@ -25,10 +27,15 @@ public class ClientMock {
 						inputCommandCreate.cmd = UserCmdModule.MAIN_CMD;
 
 						// ---------------- 模拟请求   ----------------
-						ofCommand(UserCmdModule.HELLO).setTitle("cc").setRequestData(() -> {
-							return new LoginReq().setName("hhh");
+						ofCommand(UserCmdModule.LOGIN).setTitle("cc").setRequestData(() -> {
+							return new LoginReq().setName("admin").setPassword("123456");
 						}).callback(result -> {
-							System.out.println("收到回信了：" + result.getValue(LoginReq.class));
+							System.out.println("收到回信了：" + result.getValue(LoginRsp.class));
+						});
+
+						// ---------------- 模拟请求   ----------------
+						ofCommand(UserCmdModule.GET_USER_INFO).setTitle("cc").callback(result -> {
+							System.out.println("收到回信了：" + result.getValue(UserInfo.class));
 						});
 
 						ofListen(result -> {

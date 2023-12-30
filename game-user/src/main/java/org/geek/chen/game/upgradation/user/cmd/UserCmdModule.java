@@ -15,8 +15,17 @@ public interface UserCmdModule {
 	int MAIN_CMD = CmdModule.USER_CMD;
 
 	/**
-	 *  子命令 测试
+	 * 子命令 登录
 	 */
-	int HELLO = 0;
+	int LOGIN = 0;
 
+	/**
+	 * 子命令 注册
+	 */
+	int REGISTER = 1;
+
+	/**
+	 * 获取用户基本信息
+	 */
+	int GET_USER_INFO = 2;
 }
