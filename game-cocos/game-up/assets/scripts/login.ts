@@ -1,5 +1,4 @@
-import {_decorator, Component, EditBox, Node} from 'cc';
-import SocketClient from "db://assets/iogame/SocketClient";
+import {_decorator, Component, director, EditBox, Node} from 'cc';
 import RequestCommand from "db://assets/iogame/RequestCommand";
 import {UserCmdModule} from "db://assets/iogame/cmd/CmdModule";
 import {encodeLoginReq} from "db://assets/iogame/pb/user/User";
@@ -21,9 +20,11 @@ export class login extends Component {
 
     password: string = '';
 
+    onLoad() {
+        LogUtils.log('onload')
+    }
+
     start() {
-        SocketClient.ins.connect();
-        RequestCommand.init(SocketClient.ins);
 
         this.accountInput.node.on('editing-did-ended', (editbox) => {
             this.account = editbox.string
@@ -45,12 +46,13 @@ export class login extends Component {
                 UserCmdModule.MAIN_CMD,
                 UserCmdModule.LOGIN,
                 () => {
+                    LogUtils.log(`()=> 中的 ${this.account} + ${this.password}`)
                     return encodeLoginReq({name: this.account, password: this.password});
                 },
                 (res: ExternalMessage) => {
-                    LogUtils.log(res)
                     if (res.responseStatus === 0) {
                         LogUtils.info('登录成功')
+                        director.loadScene('home')
                     } else {
                         LogUtils.warn('登录失败', res.responseStatus)
                     }
@@ -59,9 +61,6 @@ export class login extends Component {
         }
     }
 
-    onLoad() {
-        LogUtils.log('onload')
-    }
 
     update(deltaTime: number) {
 

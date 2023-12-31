@@ -42,7 +42,7 @@ export default class RequestCommand {
             responseStatus: 0,
             validMsg: "",
             msgId: callHash,
-            data: this.data()
+            data: this.data?this.data():undefined
         }
         SocketClient.ins.send(encodeExternalMessage(msg));
     }

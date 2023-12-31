@@ -15,9 +15,12 @@ export default class HandleMgr {
 
     /**注册回调*/
     public static addHandler(cmdMerge: number, handler: Function): void {
-        LogUtils.log('add', `${cmdMerge}_${hashFun(handler)}`)
-        if (HandleMgr.handlers[`${cmdMerge}_${hashFun(handler)}`] == undefined)
+        // if (HandleMgr.handlers[`${cmdMerge}_${hashFun(handler)}`] == undefined){
+            LogUtils.log('add', `${cmdMerge}_${hashFun(handler)}`)
             HandleMgr.handlers[`${cmdMerge}_${hashFun(handler)}`] = handler
+        // }else {
+        //     LogUtils.log('add repeat 不覆盖的话 回调一些场景中拿不到this')
+        // }
     }
 
 
