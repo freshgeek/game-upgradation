@@ -40,6 +40,16 @@ export class login extends Component {
     }
 
     loginHandler(event) {
+        this.account = this.accountInput.getComponent(EditBox).string
+        this.password = this.passwordInput.getComponent(EditBox).string
+        if (!this.account) {
+            LogUtils.warn('账号不能为空')
+            return
+        }
+        if (!this.password) {
+            LogUtils.warn('密码不能为空')
+            return
+        }
         if (this.account && this.password) {
             LogUtils.info(`登录：${this.account} + ${this.password}`)
             new RequestCommand(
