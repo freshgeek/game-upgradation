@@ -1,8 +1,0 @@
-{
-  "__type__": "cc.TextAsset",
-  "_name": "User",
-  "_objFlags": 0,
-  "__editorExtras__": {},
-  "_native": "",
-  "text": "syntax = \"proto3\";\npackage pb.user;\n\n// \nmessage LoginReq {\n  string name = 1;\n  string password = 2;\n}\n\n// \nmessage LoginRsp {\n  string jwt = 1;\n}\n\n// \nmessage UserInfo {\n  int64 id = 1;\n  string username = 2;\n  string password = 3;\n  string email = 4;\n  string phone = 5;\n  int32 gender = 6;\n  string address = 7;\n  int32 statusField = 8;\n}\n\n"
-}
