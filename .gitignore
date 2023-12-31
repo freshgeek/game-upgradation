@@ -42,3 +42,29 @@ build/
 /game-server/.gitignore
 /game-user/.gitignore
 /game-h5/
+
+
+
+#///////////////////////////
+# Cocos Creator 3D Project
+#///////////////////////////
+/game-cocos/game-up/library/
+/game-cocos/game-up/temp/
+/game-cocos/game-up/local/
+/game-cocos/game-up/build/
+/game-cocos/game-up/profiles/
+/game-cocos/game-up/native
+#//////////////////////////
+# NPM
+#//////////////////////////
+/game-cocos/game-up/node_modules/
+
+#//////////////////////////
+# VSCode
+#//////////////////////////
+/game-cocos/game-up/.vscode/
+
+#//////////////////////////
+# WebStorm
+#//////////////////////////
+/game-cocos/game-up/.idea/
