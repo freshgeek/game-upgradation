@@ -1,0 +1,26 @@
+syntax = "proto3";
+package pb.user;
+
+// 
+message LoginReq {
+  string name = 1;
+  string password = 2;
+}
+
+// 
+message LoginRsp {
+  string jwt = 1;
+}
+
+// 
+message UserInfo {
+  int64 id = 1;
+  string username = 2;
+  string password = 3;
+  string email = 4;
+  string phone = 5;
+  int32 gender = 6;
+  string address = 7;
+  int32 statusField = 8;
+}
+

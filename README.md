@@ -6,7 +6,7 @@
 
 同时刚好无聊的时候玩了一个三七互娱的： 微信小游戏-寻道三千。这个游戏里面有回合制pk，同时各种玩法业务足够多，且不涉及很复杂的前端、3D、特效之类的操作，所以直接以这个游戏参考
 
-使用 [ioGame网络游戏服务器框架](https://www.yuque.com/iohao/game)来开发服务端 ，客户端目前还没有想好怎么写，前期就先拿本地来调试，后面再具体选型做
+使用 [ioGame网络游戏服务器框架](https://www.yuque.com/iohao/game)来开发服务端 ，客户端采用h5-cocos 开发
 
 
 
@@ -21,6 +21,7 @@
 - [hutool](https://hutool.cn/)
 - [mysql8]()
 - [redis]()
+- [cocos](https://docs.cocos.com/creator/manual/zh/)
 
 ## 项目启动
 

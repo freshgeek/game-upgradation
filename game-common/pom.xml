@@ -19,6 +19,10 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.iohao.game</groupId>
+            <artifactId>light-jprotobuf</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>

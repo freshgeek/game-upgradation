@@ -1,0 +1,222 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/login.scene.meta": {
+      "time": 1703945761278.8909
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/login.scene": {
+      "time": 1703991019964.1533,
+      "uuid": "6b03c9b9-b75a-4544-b40b-26e741c00e1c"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/login.ts.meta": {
+      "time": 1703946463324.108
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/login.ts": {
+      "time": 1704012030200.6667,
+      "uuid": "d357d6ee-921b-402d-9202-41daca571faa"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/home.scene.meta": {
+      "time": 1703987495688.385
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/home.scene": {
+      "time": 1703987532164.6938,
+      "uuid": "6c1a04f8-65ea-44ac-a198-a4db9f749433"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame.meta": {
+      "time": 1703999287837.9368
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/ISocket.ts.meta": {
+      "time": 1703999287838.8416
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/SendMgr.ts.meta": {
+      "time": 1703999287839.9688
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/SocketClient.ts.meta": {
+      "time": 1703999287840.1265
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/cmd.meta": {
+      "time": 1703999287838.0525
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/pb.meta": {
+      "time": 1703999287838.5264
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/cmd/CmdMgr.ts.meta": {
+      "time": 1703999287840.3083
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/cmd/CmdModule.ts.meta": {
+      "time": 1703999287840.8596
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame": {
+      "time": 1704011963049.7915,
+      "uuid": "9e534b6d-a0e2-48b5-b4f8-ace4c25f0a55"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/cmd": {
+      "time": 1703999287837.166,
+      "uuid": "fca52b74-feba-43a0-853c-60e952c7682a"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/pb": {
+      "time": 1704002608233.7568,
+      "uuid": "069512f5-9844-4e2a-bc33-558c9999468d"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/ISocket.ts": {
+      "time": 1703991145268.1265,
+      "uuid": "e0b590ec-333b-4bf2-8057-865f8646a8ed"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/SendMgr.ts": {
+      "time": 1704004067797.213,
+      "uuid": "d56f8f69-56a5-44df-91e6-b4f731cd2843"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/SocketClient.ts": {
+      "time": 1704011830966.4866,
+      "uuid": "fc9a16a7-7a4c-42f4-b3ae-31a78251a98f"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/cmd/CmdMgr.ts": {
+      "time": 1703991145264.669,
+      "uuid": "952a6e25-936e-4653-84e9-534f241d6ece"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/cmd/CmdModule.ts": {
+      "time": 1703995520798.4363,
+      "uuid": "2ca89f53-cc36-47bf-93e5-4d1ee3d3b1be"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/pb/user.meta": {
+      "time": 1703999880775.0935
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/pb/user": {
+      "time": 1703999598228.645,
+      "uuid": "e60a10ec-d025-483d-a352-8509beb13096"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/pb/ExternalMessage.proto.meta": {
+      "time": 1704001015668.9153
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/pb/ExternalMessage.proto": {
+      "time": 1704001031886.4404,
+      "uuid": "0280b0ac-6124-44e0-8347-5dcae9558fdb"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/SysConfig.ts.meta": {
+      "time": 1704002608235.1504
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/pb/ExternalMessage.ts.meta": {
+      "time": 1704002608235.3071
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/pb/user/User.ts.meta": {
+      "time": 1704002608235.4243
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/SysConfig.ts": {
+      "time": 1704005400582.7046,
+      "uuid": "1daee803-d1b5-4ceb-81a5-1489c64bc782"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/pb/ExternalMessage.ts": {
+      "time": 1704001245330.9768,
+      "uuid": "0e545f52-7bf6-4349-bffc-b456b20381c7"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/pb/user/User.ts": {
+      "time": 1704002525265.8474,
+      "uuid": "7497aacc-dc4d-45d3-bb94-c887b51d15d9"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/pb/user/User.proto.meta": {
+      "time": 1704002608238.668
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/pb/user/User.proto": {
+      "time": 1704002453406.238,
+      "uuid": "5be7f8c2-303d-411e-917a-6a5b8676d77e"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/AssetUtils.ts.meta": {
+      "time": 1704003125765.2253
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/HandleMgr.ts.meta": {
+      "time": 1704003125765.426
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/IHandler.ts.meta": {
+      "time": 1704003125765.5647
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/LogUtils.ts.meta": {
+      "time": 1704003125765.6816
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/LoginVerifyHandler.ts.meta": {
+      "time": 1704003125765.7786
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/AssetUtils.ts": {
+      "time": 1703991145269.151,
+      "uuid": "c59fa0dc-ee00-48c6-ad33-2453443e73e3"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/HandleMgr.ts": {
+      "time": 1704011613629.294,
+      "uuid": "f2eb2d5d-c363-4457-8ea2-7e93f62c1ea9"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/IHandler.ts": {
+      "time": 1703991145266.6333,
+      "uuid": "c5a65743-9da3-4f4e-b4e7-a7470f088e8c"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/LogUtils.ts": {
+      "time": 1704011963049.7598,
+      "uuid": "7274d9d0-1076-4315-b726-141c883ac793"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/LoginVerifyHandler.ts": {
+      "time": 1704007090585.678,
+      "uuid": "6c4404cf-d484-40ec-9945-4f65633df0bd"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/RequestCommand.ts.meta": {
+      "time": 1704008040025.1655
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/RequestCommand.ts": {
+      "time": 1704011527510.7195,
+      "uuid": "710dcbdb-df17-4485-8af8-f26b154c8073"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/HashUtils.ts.meta": {
+      "time": 1704011113868.2834
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/HashUtils.ts": {
+      "time": 1704011112228.3948,
+      "uuid": "0252fa2c-db7a-4ec3-b005-94afaa78dfc5"
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/ErrorCode.ts.meta": {
+      "time": 1704011831092.2546
+    },
+    "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/ErrorCode.ts": {
+      "time": 1704011830969.141,
+      "uuid": "3d542b86-26c8-4e80-8015-93451907b0d5"
+    }
+  },
+  "missing": {
+    "64d5d681-4dc5-4db9-af83-c9f21c43909d": {
+      "path": "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/scenes/login.scene",
+      "time": 1703945241425.2153,
+      "removeTime": 1703945766435
+    },
+    "eb275ad5-4180-465f-80ca-94cd5d3f2ca7": {
+      "path": "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/maps",
+      "time": 1703943349648.0605,
+      "removeTime": 1703945675443
+    },
+    "e991ba76-9037-469d-a86d-3a82b981a909": {
+      "path": "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/image",
+      "time": 1703944100337.2834,
+      "removeTime": 1703945670661
+    },
+    "de4e1dc9-9777-4c29-955a-8b49fa11eeca": {
+      "path": "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/image/loadingBg.jpg",
+      "time": 1703939101333.568,
+      "removeTime": 1703945670661
+    },
+    "6b03c9b9-b75a-4544-b40b-26e741c00e1c": {
+      "path": "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/login1.scene",
+      "time": 1703946132425.6426,
+      "removeTime": 1703946148097
+    },
+    "909b6140-d9ba-4617-8c89-7a88148646fa": {
+      "path": "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/scenes",
+      "time": 1703945766435.2373,
+      "removeTime": 1703946164153
+    },
+    "8f5e7f4d-4e0f-4d06-9534-c7f3685a0ef8": {
+      "path": "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/pb/user/user.proto",
+      "time": 1703999598229.5032,
+      "removeTime": 1704002608233
+    },
+    "b39d4be6-bbad-457d-b7dc-98a0122d8793": {
+      "path": "/Users/chenchao/code/person/game-upgradation/game-cocos/game-up/assets/iogame/RegisterMgr.ts",
+      "time": 1704006042485.511,
+      "removeTime": 1704011113866
+    }
+  }
+}

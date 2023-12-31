@@ -75,6 +75,11 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>com.iohao.game</groupId>
+                <artifactId>light-jprotobuf</artifactId>
+                <version>${ioGame.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>
                 <version>3.4.0</version>

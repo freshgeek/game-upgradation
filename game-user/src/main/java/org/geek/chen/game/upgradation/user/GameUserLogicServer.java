@@ -35,7 +35,7 @@ public class GameUserLogicServer extends AbstractBrokerClientStartup {
 		// 表示登录才能访问业务方法
 		accessAuthenticationHook.setVerifyIdentity(true);
 		// 添加不需要登录（身份验证）也能访问的业务方法 (action)
-		accessAuthenticationHook.addIgnoreAuthenticationCmd(UserCmdModule.MAIN_CMD, UserCmdModule.LOGIN);
+		accessAuthenticationHook.addIgnoreAuthCmd(UserCmdModule.MAIN_CMD, UserCmdModule.LOGIN);
 	}
 
 	@Override

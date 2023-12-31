@@ -1,0 +1,166 @@
+{
+  "64d5d681-4dc5-4db9-af83-c9f21c43909d": {
+    "url": "db://assets/scenes/login.scene",
+    "value": {}
+  },
+  "909b6140-d9ba-4617-8c89-7a88148646fa": {
+    "url": "db://assets/scenes",
+    "value": {}
+  },
+  "eb275ad5-4180-465f-80ca-94cd5d3f2ca7": {
+    "url": "db://assets/maps",
+    "value": {}
+  },
+  "e991ba76-9037-469d-a86d-3a82b981a909": {
+    "url": "db://assets/image",
+    "value": {}
+  },
+  "de4e1dc9-9777-4c29-955a-8b49fa11eeca": {
+    "url": "db://assets/image/loadingBg.jpg",
+    "value": {}
+  },
+  "de4e1dc9-9777-4c29-955a-8b49fa11eeca@6c48a": {
+    "url": "db://assets/image/loadingBg.jpg@6c48a",
+    "value": {
+      "depends": [
+        "de4e1dc9-9777-4c29-955a-8b49fa11eeca"
+      ]
+    }
+  },
+  "de4e1dc9-9777-4c29-955a-8b49fa11eeca@f9941": {
+    "url": "db://assets/image/loadingBg.jpg@f9941",
+    "value": {
+      "depends": [
+        "de4e1dc9-9777-4c29-955a-8b49fa11eeca@6c48a"
+      ]
+    }
+  },
+  "6b03c9b9-b75a-4544-b40b-26e741c00e1c": {
+    "url": "db://assets/login.scene",
+    "value": {
+      "depends": [
+        "6b03c9b9-b75a-4544-b40b-26e741c00e1c",
+        "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
+      ],
+      "dependScripts": [
+        "d357d6ee-921b-402d-9202-41daca571faa"
+      ]
+    }
+  },
+  "d357d6ee-921b-402d-9202-41daca571faa": {
+    "url": "db://assets/login.ts",
+    "value": {}
+  },
+  "6c1a04f8-65ea-44ac-a198-a4db9f749433": {
+    "url": "db://assets/home.scene",
+    "value": {
+      "depends": [
+        "6c1a04f8-65ea-44ac-a198-a4db9f749433"
+      ],
+      "dependScripts": []
+    }
+  },
+  "9e534b6d-a0e2-48b5-b4f8-ace4c25f0a55": {
+    "url": "db://assets/iogame",
+    "value": {}
+  },
+  "e0b590ec-333b-4bf2-8057-865f8646a8ed": {
+    "url": "db://assets/iogame/ISocket.ts",
+    "value": {}
+  },
+  "d56f8f69-56a5-44df-91e6-b4f731cd2843": {
+    "url": "db://assets/iogame/SendMgr.ts",
+    "value": {}
+  },
+  "fc9a16a7-7a4c-42f4-b3ae-31a78251a98f": {
+    "url": "db://assets/iogame/SocketClient.ts",
+    "value": {}
+  },
+  "fca52b74-feba-43a0-853c-60e952c7682a": {
+    "url": "db://assets/iogame/cmd",
+    "value": {}
+  },
+  "069512f5-9844-4e2a-bc33-558c9999468d": {
+    "url": "db://assets/iogame/pb",
+    "value": {}
+  },
+  "952a6e25-936e-4653-84e9-534f241d6ece": {
+    "url": "db://assets/iogame/cmd/CmdMgr.ts",
+    "value": {}
+  },
+  "2ca89f53-cc36-47bf-93e5-4d1ee3d3b1be": {
+    "url": "db://assets/iogame/cmd/CmdModule.ts",
+    "value": {}
+  },
+  "e60a10ec-d025-483d-a352-8509beb13096": {
+    "url": "db://assets/iogame/pb/user",
+    "value": {}
+  },
+  "8f5e7f4d-4e0f-4d06-9534-c7f3685a0ef8": {
+    "url": "db://assets/iogame/pb/user/user.proto",
+    "value": {}
+  },
+  "0280b0ac-6124-44e0-8347-5dcae9558fdb": {
+    "url": "db://assets/iogame/pb/ExternalMessage.proto",
+    "value": {
+      "depends": []
+    }
+  },
+  "1daee803-d1b5-4ceb-81a5-1489c64bc782": {
+    "url": "db://assets/iogame/SysConfig.ts",
+    "value": {}
+  },
+  "0e545f52-7bf6-4349-bffc-b456b20381c7": {
+    "url": "db://assets/iogame/pb/ExternalMessage.ts",
+    "value": {}
+  },
+  "7497aacc-dc4d-45d3-bb94-c887b51d15d9": {
+    "url": "db://assets/iogame/pb/user/User.ts",
+    "value": {}
+  },
+  "5be7f8c2-303d-411e-917a-6a5b8676d77e": {
+    "url": "db://assets/iogame/pb/user/User.proto",
+    "value": {
+      "depends": []
+    }
+  },
+  "c59fa0dc-ee00-48c6-ad33-2453443e73e3": {
+    "url": "db://assets/iogame/AssetUtils.ts",
+    "value": {}
+  },
+  "f2eb2d5d-c363-4457-8ea2-7e93f62c1ea9": {
+    "url": "db://assets/iogame/HandleMgr.ts",
+    "value": {}
+  },
+  "c5a65743-9da3-4f4e-b4e7-a7470f088e8c": {
+    "url": "db://assets/iogame/IHandler.ts",
+    "value": {}
+  },
+  "7274d9d0-1076-4315-b726-141c883ac793": {
+    "url": "db://assets/iogame/LogUtils.ts",
+    "value": {}
+  },
+  "6c4404cf-d484-40ec-9945-4f65633df0bd": {
+    "url": "db://assets/iogame/LoginVerifyHandler.ts",
+    "value": {}
+  },
+  "b39d4be6-bbad-457d-b7dc-98a0122d8793": {
+    "url": "db://assets/iogame/RegisterMgr.ts",
+    "value": {}
+  },
+  "710dcbdb-df17-4485-8af8-f26b154c8073": {
+    "url": "db://assets/iogame/RequestCommand.ts",
+    "value": {}
+  },
+  "0252fa2c-db7a-4ec3-b005-94afaa78dfc5": {
+    "url": "db://assets/iogame/HashUtils.ts",
+    "value": {}
+  },
+  "3d542b86-26c8-4e80-8015-93451907b0d5": {
+    "url": "db://assets/iogame/ErrorCode.ts",
+    "value": {}
+  }
+}
