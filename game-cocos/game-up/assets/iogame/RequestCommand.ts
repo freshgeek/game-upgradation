@@ -31,9 +31,9 @@ export default class RequestCommand {
     public execute(): void {
         // 执行
         let mergeCmd = CmdMgr.getMergeCmd(this.mainCmdCode, this.subCmdCode)
-        let callHash = hashFun(this.callback)
+        let callHash = RequestCommand.counter++
         LogUtils.log("callHash", callHash)
-        HandleMgr.addHandler(mergeCmd, this.callback);
+        HandleMgr.addHandler(mergeCmd,callHash, this.callback);
 
         let msg = {
             cmdCode: 1,

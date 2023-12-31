@@ -14,13 +14,9 @@ export default class HandleMgr {
     }
 
     /**注册回调*/
-    public static addHandler(cmdMerge: number, handler: Function): void {
-        // if (HandleMgr.handlers[`${cmdMerge}_${hashFun(handler)}`] == undefined){
-            LogUtils.log('add', `${cmdMerge}_${hashFun(handler)}`)
-            HandleMgr.handlers[`${cmdMerge}_${hashFun(handler)}`] = handler
-        // }else {
-        //     LogUtils.log('add repeat 不覆盖的话 回调一些场景中拿不到this')
-        // }
+    public static addHandler(cmdMerge: number, hash: number, handler: Function): void {
+        LogUtils.log('add', `${cmdMerge}_${hash}`)
+        HandleMgr.handlers[`${cmdMerge}_${hash}`] = handler
     }
 
 
@@ -32,6 +28,7 @@ export default class HandleMgr {
         if (handler == null) {
             console.error("cmd handler is null,请检查是否回调异常", CmdMgr.getCmd(cmdMerge), CmdMgr.getSubCmd(cmdMerge), funHash);
         }
+        delete HandleMgr.handlers[`${cmdMerge}_${funHash}`]
         return handler;
     }
 

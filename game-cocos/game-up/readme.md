@@ -32,4 +32,6 @@ com.iohao.game.external.core.message.ExternalMessage
 ## 封装sdk 
 使用回调函数hash生成唯一msgId，作为回调映射handler，RequestCommand.ts 
 
-## 
+## 长驻节点
+调试获取个人信息和跳场景不断连接：采用长驻节点
+

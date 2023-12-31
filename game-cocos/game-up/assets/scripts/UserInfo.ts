@@ -24,7 +24,6 @@ export class UserInfo extends Component {
     }
 
     getUserInfoHandler = (data: ExternalMessage) => {
-        debugger
         if (ErrorCode.UN_LOGIN === data.responseStatus) {
             director.loadScene('login');
         } else {

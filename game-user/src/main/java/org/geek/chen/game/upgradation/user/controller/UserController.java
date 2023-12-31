@@ -5,6 +5,7 @@ import cn.hutool.jwt.JWT;
 import com.iohao.game.action.skeleton.annotation.ActionController;
 import com.iohao.game.action.skeleton.annotation.ActionMethod;
 import com.iohao.game.action.skeleton.core.flow.FlowContext;
+import com.iohao.game.bolt.broker.client.kit.ExternalCommunicationKit;
 import com.iohao.game.bolt.broker.client.kit.UserIdSettingKit;
 import org.geek.chen.game.upgradation.dao.entity.UserEntity;
 import org.geek.chen.game.upgradation.dao.service.UserBaseService;
@@ -44,9 +45,13 @@ public class UserController {
 		GameUserEnum.USER_NAME_OR_PASSWORD_ERROR.assertTrue(userEntity.isPresent());
 		GameUserEnum.USER_HAS_BAN.assertTrue(userEntity.get().getStatusField() == 0);
 
+		// （相当于顶号），强制断开之前的客户端连接，并让本次登录成功。
+		ExternalCommunicationKit.forcedOffline(userEntity.get().getId());
+
 		// 成功后必须 设置才算成功
 		// 暂时拿用户玩家角色id 带区服的
 		boolean b = UserIdSettingKit.settingUserId(flowContext, userEntity.get().getId());
+
 		GameUserEnum.LOGIN_ERROR_RETRY.assertTrue(b);
 		return new LoginRsp().setJwt(
 				JWT.create()
